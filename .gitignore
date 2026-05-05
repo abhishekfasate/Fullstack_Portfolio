@@ -40,4 +40,4 @@ backend/alembic/versions/__pycache__/
 *.key
 
 # Resume (keep out of git — upload to S3)
-backend/static/resume.pdf
+# backend/static/resume.pdf
