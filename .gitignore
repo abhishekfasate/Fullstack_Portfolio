@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+*.egg
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Node
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Docker
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Alembic (don't ignore migrations, just the cache)
+backend/alembic/versions/__pycache__/
+
+# SSL certs
+*.pem
+*.crt
+*.key
+
+# Resume (keep out of git — upload to S3)
+backend/static/resume.pdf
