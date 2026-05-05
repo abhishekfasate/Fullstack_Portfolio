@@ -1,5 +1,5 @@
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
+// import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 // import Chatbot from "@/components/chatbot/Chatbot";
 import Footer from "@/components/layout/Footer";

@@ -2,8 +2,8 @@ import { useQuery } from "@tanstack/react-query";
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
-import { fetchPosts, fetchProjects } from "@/api";
-import BlogCard from "@/components/ui/BlogCard";
+import { fetchProjects } from "@/api";
+// import BlogCard from "@/components/ui/BlogCard";
 import ProjectCard from "@/components/ui/ProjectCard";
 import Hero from "@/components/sections/Hero";
 
@@ -11,11 +11,6 @@ export default function Home() {
   const { data: projects } = useQuery({
     queryKey: ["projects", { featured: true }],
     queryFn: () => fetchProjects(true),
-  });
-
-  const { data: posts } = useQuery({
-    queryKey: ["posts", { featured: true }],
-    queryFn: () => fetchPosts({ featured: true, limit: 3 }),
   });
 
   return (
