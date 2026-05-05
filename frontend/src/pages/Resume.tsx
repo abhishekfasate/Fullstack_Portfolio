@@ -12,7 +12,8 @@ export default function Resume() {
         >
           <h1 className="text-4xl font-bold text-gray-900 dark:text-white">Resume</h1>
           <a
-            href="/api/v1/resume/download"
+            // href = "/api/v1/resume/download"
+            href="https://fullstack-portfolio-e0qf.onrender.com/api/v1/resume/download"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-5 py-2.5 rounded-xl bg-brand-600 hover:bg-brand-700 text-white text-sm font-medium transition-colors shadow-lg shadow-brand-600/20"
@@ -30,7 +31,8 @@ export default function Resume() {
           style={{ height: "80vh" }}
         >
           <iframe
-            src="/api/v1/resume/download"
+            // src="/api/v1/resume/download"
+            src="https://fullstack-portfolio-e0qf.onrender.com/api/v1/resume/download"
             className="w-full h-full"
             title="Resume PDF"
           />
