@@ -34,7 +34,7 @@ const CONTRIBUTIONS = [
     title: "Full-Stack HR & Performance Dashboards",
     tags: ["Django", "React", "Ant Design", "Nginx", "Gunicorn"],
     description:
-      "Led end-to-end development of two internal full-stack dashboards — an HR Dashboard for managing employee data, leave, and reporting, and a Performance Dashboard for tracking individual and team KPIs. Built the backend with Django REST Framework and the frontend with React and Ant Design. Deployed behind Nginx with Gunicorn as the WSGI server.",
+      "Led end-to-end development of two internal full-stack dashboards an HR Dashboard for managing employee data, leave, and reporting, and a Performance Dashboard for tracking individual and team KPIs. Built the backend with Django REST Framework and the frontend with React and Ant Design. Deployed behind Nginx with Gunicorn as the WSGI server.",
     impact: "Delivered two production internal tools used by HR and management teams.",
   },
   {
@@ -76,7 +76,7 @@ export default function Experience() {
           </div>
 
           <p className="text-gray-500 dark:text-gray-400 max-w-2xl">
-            Key projects and contributions from my professional career — spanning test automation,
+            Key projects and contributions from my professional career spanning test automation,
             DevOps, full-stack development, and team leadership.
           </p>
         </motion.div>

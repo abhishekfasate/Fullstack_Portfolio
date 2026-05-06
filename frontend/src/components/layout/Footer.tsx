@@ -13,7 +13,7 @@ export default function Footer() {
     <footer className="border-t border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 py-10">
       <div className="mx-auto max-w-6xl px-6 flex flex-col md:flex-row items-center justify-between gap-4">
         <p className="text-sm text-gray-500 dark:text-gray-400">
-          © {new Date().getFullYear()} Abhishek — Built with React + FastAPI
+          © {new Date().getFullYear()} Abhishek
         </p>
         <div className="flex items-center gap-4">
           {SOCIALS.map(({ href, icon: Icon, label }) => (

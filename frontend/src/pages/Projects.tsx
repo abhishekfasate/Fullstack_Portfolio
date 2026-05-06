@@ -15,7 +15,7 @@ export default function Projects() {
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="mb-12">
           <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">Projects</h1>
           <p className="text-gray-500 dark:text-gray-400 max-w-xl">
-            A selection of things I&apos;ve built — personal projects, open-source contributions, and professional work.
+            A selection of things I&apos;ve built personal projects, open-source contributions, and professional work.
           </p>
         </motion.div>
 
