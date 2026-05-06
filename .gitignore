@@ -41,3 +41,6 @@ backend/alembic/versions/__pycache__/
 
 # Resume (keep out of git — upload to S3)
 # backend/static/resume.pdf
+
+# Git static
+git_static
