@@ -20,7 +20,7 @@ export default function Hero() {
       <div className="mx-auto max-w-6xl px-6 py-24 w-full">
         <motion.div variants={container} initial="hidden" animate="show" className="space-y-8 max-w-3xl">
           <motion.p variants={item} className="font-mono text-brand-600 dark:text-brand-400 text-sm tracking-widest uppercase">
-            Hello, strengers! I&apos;m
+            Hello, stranger! I&apos;m
           </motion.p>
 
           <motion.h1 variants={item} className="text-5xl md:text-7xl font-bold tracking-tight text-gray-900 dark:text-white leading-tight">
